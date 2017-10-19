@@ -5,8 +5,19 @@ This is an OS IO Scheduler Simulator
 
 
 Run:
+
 Running this program requires c++ version 6.2.0 or greater
+
 In the command line first call the make file:
 make
-Then run the compiled binary:
-./IOSched 
+
+Algorithm choice must be indicated when running the program
+ALG   | options
+FSCAN     f
+SCAN      s
+CSCAN     c
+FIFO      i
+SSTF      j
+
+Then run the compiled binary with the desired algoirithm
+./IOSched -alg
