@@ -12,4 +12,4 @@ Algorithm choice must be indicated when running the program
 ALG / command: (FSCAN/f, SCAN/s, SCAN/c, FIFO/i, SSTF/j)
 
 Then run the compiled binary with the desired algoirithm
-./IOSched -alg
+./IOSched -alg /input_file
